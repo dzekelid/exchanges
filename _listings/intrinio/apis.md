@@ -30,7 +30,7 @@ apis:
   tags: Exchanges
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/intrinio/stock-exchanges-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/intrinio/prices-exchange-get.md
 x-common:
 - type: x-applications-showcase
   url: https://intrinio.com/marketplace/apps
