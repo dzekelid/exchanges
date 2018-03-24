@@ -36,16 +36,16 @@ tags:
 - Business
 - Bond Markets
 - Articles
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Xignite Global Historical
+- name: Xignite Futures
   description: Financial market data on-demand
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: ""
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
   tags: Exchanges
   properties:
   - type: x-openapi-spec
