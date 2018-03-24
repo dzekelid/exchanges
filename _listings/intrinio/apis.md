@@ -16,8 +16,8 @@ tags:
 - Free Tier
 - Financial Services
 - Enterprise
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/intrinio/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -30,7 +30,7 @@ apis:
   tags: Exchanges
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/intrinio/stock-exchanges-corporate-actions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/intrinio/stock-exchanges-get.md
 x-common:
 - type: x-applications-showcase
   url: https://intrinio.com/marketplace/apps
