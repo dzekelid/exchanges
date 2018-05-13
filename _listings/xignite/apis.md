@@ -50,11 +50,11 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/listexchanges-post.md
-- name: Xignite Futures List Exchanges
-  description: List commmodities future exchanges and indicates which ones are supported.
+- name: Xignite Global Historical List Exchanges
+  description: This operation returns exchanges information.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/280-xignite.jpg
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
   tags: Exchanges
   properties:
   - type: x-openapi-spec
