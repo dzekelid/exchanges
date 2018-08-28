@@ -32,6 +32,24 @@ paths:
       tags:
       - List
       - Exchanges
+  /ListFutureExchanges:
+    get:
+      summary: List Future Exchanges
+      description: Returns a list of future exchanges
+      operationId: ListFutureExchanges
+      x-api-path-slug: listfutureexchanges-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - List
+      - Future
+      - Exchanges
   /AreExchangesOpen:
     get:
       summary: Are Exchanges Open

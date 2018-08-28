@@ -15,6 +15,24 @@ produces:
 consumes:
 - application/json
 paths:
+  /ListExchanges:
+    get:
+      summary: List Exchanges
+      description: List supported exchanges.
+      operationId: ListExchanges
+      x-api-path-slug: listexchanges-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - List
+      - Exchanges
   /ListFutureExchanges:
     get:
       summary: List Future Exchanges
@@ -34,6 +52,24 @@ paths:
       - List
       - Future
       - Exchanges
+  /AreExchangesOpen:
+    get:
+      summary: Are Exchanges Open
+      description: Are exchanges open.
+      operationId: AreExchangesOpen
+      x-api-path-slug: areexchangesopen-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Are
+      - Exchanges
+      - Open
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

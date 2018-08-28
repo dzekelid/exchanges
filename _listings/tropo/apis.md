@@ -6,36 +6,29 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/264-tropo.
 x-kinRank: "7"
 x-alexaRank: "641468"
 tags: Exchanges
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/tropo/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Tropo Get Exchanges
-  x-api-slug: tropo
+- name: Tropo - Get Exchanges
+  x-api-slug: exchanges-get
   description: Get exchanges.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/264-tropo.jpg
   humanURL: https://www.tropo.com/
-  baseURL: https://api.tropo.com//v1///exchanges
-  tags: Exchanges
+  baseURL: https://api.tropo.com//v1/
+  tags: SMS, Speech, Instant Message, Voice, Telephony, Voice, Technology, SaaS, Telecommunications,
+    Mobile, Telecommunications, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/tropo/exchanges-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/tropo/exchanges-get-openapi.md
-- name: Tropo
-  x-api-slug: tropo
-  description: Add Voice, SMS, Twitter, and IM to Your Applications. Tropo is a powerful
-    yet simple API that adds Voice, SMS, Twitter, and IM support to the programming
-    languages you already know.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/264-tropo.jpg
-  humanURL: https://www.tropo.com/
-  baseURL: https://api.tropo.com//v1/
-  tags: Exchanges
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/tropo/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://trello.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://tropo.stack.network
 - type: x-base
   url: https://api.tropo.com
 - type: x-blog

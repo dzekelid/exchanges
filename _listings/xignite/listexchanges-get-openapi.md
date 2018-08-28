@@ -33,6 +33,43 @@ paths:
       - Market Data
       - List
       - Exchanges
+  /ListFutureExchanges:
+    get:
+      summary: List Future Exchanges
+      description: Returns a list of future exchanges
+      operationId: ListFutureExchanges
+      x-api-path-slug: listfutureexchanges-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - List
+      - Future
+      - Exchanges
+  /AreExchangesOpen:
+    get:
+      summary: Are Exchanges Open
+      description: Are exchanges open.
+      operationId: AreExchangesOpen
+      x-api-path-slug: areexchangesopen-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Are
+      - Exchanges
+      - Open
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

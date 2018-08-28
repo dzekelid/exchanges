@@ -7,234 +7,172 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Exchanges
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Xignite Fact Set Estimates List Exchanges
-  x-api-slug: xignite-fact-set-estimates
+- name: Xignite Fact Set Estimates - List Exchanges
+  x-api-slug: listexchanges-get
   description: List Exchanges
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://factsetestimates.xignite.com/xFactSetEstimates.json/XigniteFactSetEstimates//ListExchanges
-  tags: Market Data,List, Exchanges
+  baseURL: https://factsetestimates.xignite.com/xFactSetEstimates.json/XigniteFactSetEstimates
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/listexchanges-get-openapi.md
-- name: Xignite Fact Set Estimates
-  x-api-slug: xignite-fact-set-estimates
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://factsetestimates.xignite.com/xFactSetEstimates.json/XigniteFactSetEstimates
-  tags: Exchanges
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/openapi.md
-- name: Xignite Futures List Exchanges
-  x-api-slug: xignite-futures
+- name: Xignite Futures - List Exchanges
+  x-api-slug: listexchanges-get
   description: List commmodities future exchanges and indicates which ones are supported.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//ListExchanges
-  tags: Market Data,List, Exchanges
+  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/listexchanges-get-openapi.md
-- name: Xignite Futures
-  x-api-slug: xignite-futures
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
-  tags: Exchanges
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/openapi.md
-- name: Xignite Global Futures List Future Exchanges
-  x-api-slug: xignite-global-futures
+- name: Xignite Global Futures - List Future Exchanges
+  x-api-slug: listfutureexchanges-get
   description: Returns a list of future exchanges
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalfutures.xignite.com/xGlobalFutures.json/XigniteGlobalFutures//ListFutureExchanges
-  tags: List, Future, Exchanges
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/listfutureexchanges-get-openapi.md
-- name: Xignite Global Futures
-  x-api-slug: xignite-global-futures
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalfutures.xignite.com/xGlobalFutures.json/XigniteGlobalFutures
-  tags: Exchanges
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/openapi.md
-- name: Xignite Global Historical List Exchanges
-  x-api-slug: xignite-global-historical
-  description: This operation returns exchanges information.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//ListExchanges
-  tags: Market Data,List, Exchanges
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/listexchanges-get-openapi.md
-- name: Xignite Global Historical
-  x-api-slug: xignite-global-historical
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
-  tags: Exchanges
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/openapi.md
-- name: Xignite Global Holidays List Exchanges
-  x-api-slug: xignite-global-holidays
-  description: List exchanges.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalholidays.xignite.com/xGlobalHolidays.json/XigniteGlobalHolidays//ListExchanges
-  tags: List, Exchanges
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/listexchanges-get-openapi.md
-- name: Xignite Global Holidays Are Exchanges Open
-  x-api-slug: xignite-global-holidays
-  description: Are exchanges open.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalholidays.xignite.com/xGlobalHolidays.json/XigniteGlobalHolidays//AreExchangesOpen
-  tags: Are, Exchanges, Open
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/areexchangesopen-get-openapi.md
-- name: Xignite Global Holidays
-  x-api-slug: xignite-global-holidays
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalholidays.xignite.com/xGlobalHolidays.json/XigniteGlobalHolidays
-  tags: Exchanges
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/openapi.md
-- name: Xignite Global Master List Exchanges
-  x-api-slug: xignite-global-master
-  description: Get the possible exchanges.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalmaster.xignite.com/xglobalmaster.json/XigniteGlobalMaster//ListExchanges
-  tags: List, Exchanges
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/listexchanges-get-openapi.md
-- name: Xignite Global Master
-  x-api-slug: xignite-global-master
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalmaster.xignite.com/xglobalmaster.json/XigniteGlobalMaster
-  tags: Exchanges
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/openapi.md
-- name: Xignite Global News List Exchanges
-  x-api-slug: xignite-global-news
-  description: List supported exchanges.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalnews.xignite.com/xGlobalNews.xml///ListExchanges
-  tags: Market Data,List, Exchanges
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/listexchanges-get-openapi.md
-- name: Xignite Global News
-  x-api-slug: xignite-global-news
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalnews.xignite.com/xGlobalNews.xml/
-  tags: Exchanges
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/openapi.md
-- name: Xignite Global Option Master List Exchanges
-  x-api-slug: xignite-global-option-master
-  description: List supported exchanges.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globaloptionmaster.xignite.com/xGlobalOptionMaster.json/XigniteGlobalOptionMaster//ListExchanges
-  tags: Market Data,List, Exchanges
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/listexchanges-get-openapi.md
-- name: Xignite Global Option Master
-  x-api-slug: xignite-global-option-master
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globaloptionmaster.xignite.com/xGlobalOptionMaster.json/XigniteGlobalOptionMaster
-  tags: Exchanges
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/openapi.md
-- name: Xignite Global Real Time Futures List Future Exchanges
-  x-api-slug: xignite-global-real-time-futures
-  description: Returns a list of future exchanges
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures//ListFutureExchanges
-  tags: Market Data,List, Future, Exchanges
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/listfutureexchanges-get-openapi.md
-- name: Xignite Global Real Time Futures
-  x-api-slug: xignite-global-real-time-futures
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
+- name: Xignite Global Historical - List Exchanges
+  x-api-slug: listexchanges-get
+  description: This operation returns exchanges information.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures
-  tags: Exchanges
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/openapi.md
-- name: Xignite IPOs List Exchanges
-  x-api-slug: xignite-ipos
-  description: Post listexchanges
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://ipos.xignite.com/xIPOs.json/XigniteIPOs//ListExchanges
-  tags: Market Data,List, Exchanges
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/listexchanges-get-openapi.md
-- name: Xignite IPOs
-  x-api-slug: xignite-ipos
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
+- name: Xignite Global Holidays - List Exchanges
+  x-api-slug: listexchanges-get
+  description: List exchanges.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalholidays.xignite.com/xGlobalHolidays.json/XigniteGlobalHolidays
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/listexchanges-get-openapi.md
+- name: Xignite Global Holidays - Are Exchanges Open
+  x-api-slug: areexchangesopen-get
+  description: Are exchanges open.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalholidays.xignite.com/xGlobalHolidays.json/XigniteGlobalHolidays
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/areexchangesopen-get-openapi.md
+- name: Xignite Global Master - List Exchanges
+  x-api-slug: listexchanges-get
+  description: Get the possible exchanges.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalmaster.xignite.com/xglobalmaster.json/XigniteGlobalMaster
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/listexchanges-get-openapi.md
+- name: Xignite Global News - List Exchanges
+  x-api-slug: listexchanges-get
+  description: List supported exchanges.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalnews.xignite.com/xGlobalNews.xml/
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/listexchanges-get-openapi.md
+- name: Xignite Global Option Master - List Exchanges
+  x-api-slug: listexchanges-get
+  description: List supported exchanges.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globaloptionmaster.xignite.com/xGlobalOptionMaster.json/XigniteGlobalOptionMaster
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/listexchanges-get-openapi.md
+- name: Xignite Global Real Time Futures - List Future Exchanges
+  x-api-slug: listfutureexchanges-get
+  description: Returns a list of future exchanges
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/listfutureexchanges-get-openapi.md
+- name: Xignite IPOs - List Exchanges
+  x-api-slug: listexchanges-get
+  description: Post listexchanges
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://ipos.xignite.com/xIPOs.json/XigniteIPOs
-  tags: Exchanges
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/exchanges/master/_listings/xignite/listexchanges-get-openapi.md
 x-common:
 - type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
+- type: x-api-gallery
+  url: http://xibo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://xignite.stack.network
 - type: x-base
   url: http://globalmaster.xignite.com
 - type: x-case-studies
